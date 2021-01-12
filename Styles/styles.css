@@ -1,0 +1,152 @@
+body{
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+/* title */
+#title .container-fluid{
+    padding: 3% 5% 2%;
+    
+}
+#title{
+    background-color: #222831;
+    text-align: left;
+}
+.internetpic{
+    position: absolute;
+    width: 90%;
+    right: 10%;
+}
+.main-heading{
+    color: white;
+}
+
+.download-btn1{
+    margin: 15% 3% 5% 0;
+    padding: 1%;
+}
+.download-btn1:hover{
+    background-color: #00adb5;
+}
+
+.mainlogo{
+    color:#00adb5;
+}
+/* navigation bar section */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    color: #00adb5;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+
+/* feature section */
+#feature .container-fluid{
+    padding: 1% 10%;
+}
+#feature{
+    background-color: #00adb5;
+    color: white;
+}
+.feature-heading{
+    padding: 7% 1%; 
+}
+i{
+    color: #222831;
+    margin-bottom: 1rem;
+}
+i:hover{
+    color: #eeeeee;
+}
+
+/* Testimonial section */
+#testimonial{
+    background-color: #393e46;
+    padding: 2% 0 2%;
+}
+
+.test-heading{
+    width: 60%;
+    margin: auto;
+}
+
+.speedtest{
+    width: 50%;
+    margin: 50px;
+}
+.personpic{
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+/* Pricing section */
+#pricing{
+    background-color: #00adb5;
+    padding: 100px;
+}
+.house-logo{
+    color: #00adb5;
+}
+
+/* CTA section */
+.btn-cta{
+    background-color: #00adb5;
+    margin: 50px;
+}
+.btn-cta:hover{
+    color: #00adb5;
+}
+#CTA .house-logo{
+    color: #393e46;
+}
+.cta-text{
+    color: #393e46;
+}
+/* press section */
+#press{
+    background-color: #393e46;
+    margin-top: -100px;
+}
+
+.logo{
+    width: 15%;
+    margin: 20px 50px 50px;
+}
+/* Footer section */
+#contact{
+    background-color: #393e46;
+    color:#00adb5;
+}
+.footer{
+    color:#00adb5;
+    margin: 15px;
+
+}
+/* Media Query */
+@media (max-width: 991px){
+    #title{
+        text-align: center;
+    }
+    .internetpic{
+        position: static;
+    }
+}
